@@ -20,7 +20,7 @@ app.use(express.static("Images"));
 app.use(
   cors({
     credentials: true,
-    origin: ["https://magical-pithivier-07439c.netlify.app", "https://flourishing-mousse-66e1a2.netlify.app"],
+    origin: ["https://bookingconsumers.onrender.com", "https://bookingadmin.onrender.com"],
   })
 )
 const port = process.env.PORT || 5000;
