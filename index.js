@@ -20,7 +20,7 @@ app.use(express.static("Images"));
 app.use(
   cors({
     credentials: true,
-    origin: ["https://gregarious-starship-416dfa.netlify.app", "https://voluble-figolla-f6bb4a.netlify.app"],
+    origin: ["https://subtle-kataifi-95ce65.netlify.app", "https://dainty-tapioca-b7e4d5.netlify.app"],
   })
 )
 const port = process.env.PORT || 5000;
